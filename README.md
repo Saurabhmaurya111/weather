@@ -11,10 +11,9 @@ This is a simple Flutter weather application that allows users to check the curr
 - 🏙️ **City Search**: Easily search for weather by entering a city name.
 
 ## Screenshots
-<img src="assets/light.jpg" width="300" />
-<img src="assets/dark.jpg" width="300" />
 <img src="assets/light2.jpg" width="300" />
-<img src="assets/dark2.jpg" width="300" />
+<img src="assets/dark.jpg" width="300" />
+
 
 ## Installation
 

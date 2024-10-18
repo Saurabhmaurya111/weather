@@ -4,6 +4,7 @@ import 'package:weather_app/views/weather_view.dart';
 
 final ThemeData lightTheme = ThemeData(
   brightness: Brightness.light,
+  
   primaryColor: Colors.blue,
   scaffoldBackgroundColor: Colors.white,
   textTheme: TextTheme(

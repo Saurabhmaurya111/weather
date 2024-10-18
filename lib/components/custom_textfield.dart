@@ -19,7 +19,7 @@ class CustomTextfiled extends StatelessWidget {
         child: TextField(
           controller: controller,
            style: TextStyle(
-            color: Theme.of(context).textTheme.bodyMedium?.color, // Input text color
+            color: Colors.black,// Input text color
           ),
           decoration: InputDecoration(
             enabledBorder: OutlineInputBorder(

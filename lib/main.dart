@@ -4,9 +4,10 @@ import 'package:weather_app/views/weather_view.dart';
 
 final ThemeData lightTheme = ThemeData(
   brightness: Brightness.light,
-  
   primaryColor: Colors.blue,
   scaffoldBackgroundColor: Colors.white,
+  hintColor: Colors.grey[600],
+  cardColor: Colors.black,
   textTheme: TextTheme(
     bodyMedium: TextStyle(color: Colors.black),
   ),
@@ -16,6 +17,8 @@ final ThemeData darkTheme = ThemeData(
   brightness: Brightness.dark,
   primaryColor: Colors.black,
   scaffoldBackgroundColor: Colors.black,
+   hintColor: Colors.black,
+   cardColor: Colors.white,
   textTheme: TextTheme(
     bodyMedium: TextStyle(color: Colors.white), 
   ),

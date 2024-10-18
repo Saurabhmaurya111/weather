@@ -18,7 +18,9 @@ class CustomTextfiled extends StatelessWidget {
         padding: EdgeInsets.symmetric(horizontal: 25.0),
         child: TextField(
           controller: controller,
-          
+           style: TextStyle(
+            color: Theme.of(context).textTheme.bodyMedium?.color, // Input text color
+          ),
           decoration: InputDecoration(
             enabledBorder: OutlineInputBorder(
               borderSide: BorderSide(color: Colors.white),
@@ -28,7 +30,7 @@ class CustomTextfiled extends StatelessWidget {
             fillColor: Color.fromRGBO(238, 238, 238, 1),
             filled: true,
             hintText: hintText,
-            hintStyle: TextStyle(color: Colors.grey[500])
+            hintStyle: TextStyle(color: Theme.of(context).hintColor,)
           ),
         ),
       ),

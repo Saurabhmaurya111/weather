@@ -14,14 +14,14 @@ class CustomButton extends StatelessWidget {
         padding: EdgeInsets.all(20),
         margin: EdgeInsets.symmetric(horizontal: 30),
         decoration: BoxDecoration(
-          color: Colors.blue[500],
+          color: Colors.grey[500],
           borderRadius: BorderRadius.circular(8),
         ),
         child: Center(
           child: Text(
             text,
             style: TextStyle(
-              color: Colors.white,
+              color:Theme.of(context).cardColor,
               fontWeight: FontWeight.bold,
               fontSize: 16,
             ),

@@ -38,6 +38,7 @@ class WeatherView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Weather App'),
+        centerTitle: true,
         actions: [
           IconButton(
             icon: Icon(Get.isDarkMode ? Icons.light_mode : Icons.dark_mode),
@@ -48,7 +49,7 @@ class WeatherView extends StatelessWidget {
           ),
         ],
       ),
-      backgroundColor: context.theme.scaffoldBackgroundColor, // Use dynamic theme color
+      backgroundColor: context.theme.scaffoldBackgroundColor, 
       body: SingleChildScrollView(
         child: SafeArea(
           child: Padding(

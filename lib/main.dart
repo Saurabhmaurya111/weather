@@ -7,7 +7,7 @@ final ThemeData lightTheme = ThemeData(
   primaryColor: Colors.blue,
   scaffoldBackgroundColor: Colors.white,
   textTheme: TextTheme(
-    bodyMedium: TextStyle(color: Colors.black), // Replaced bodyText2 with bodyMedium
+    bodyMedium: TextStyle(color: Colors.black),
   ),
 );
 
@@ -16,7 +16,7 @@ final ThemeData darkTheme = ThemeData(
   primaryColor: Colors.black,
   scaffoldBackgroundColor: Colors.black,
   textTheme: TextTheme(
-    bodyMedium: TextStyle(color: Colors.white), // Replaced bodyText2 with bodyMedium
+    bodyMedium: TextStyle(color: Colors.white), 
   ),
 );
 
@@ -34,8 +34,8 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: lightTheme, // Light theme defined above
-      darkTheme: darkTheme, // Dark theme defined above
+      theme: lightTheme, // Light theme 
+      darkTheme: darkTheme, // Dark theme 
       themeMode: ThemeMode.system,
       home:  WeatherView(),
     );
